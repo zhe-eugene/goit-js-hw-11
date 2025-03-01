@@ -53,12 +53,12 @@ function getImgFromSearch(e) {
 	e.target.reset();
 }
 
-function showLoader() {
-	refs.loader.style.display = 'block';
-}
-
 function hideLoader() {
 	refs.loader.style.display = 'none';
+}
+
+function showLoader() {
+	refs.loader.style.display = 'block';
 }
 
 function showMessage(message) {
